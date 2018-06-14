@@ -12,23 +12,21 @@ $localImage = ImageKiller::saveImage(
 );
 
 var_dump($localImage);
-
-/**
-array(3) {
-  ["conentType"]=>
-  array(1) {
-    [0]=>
-    string(10) "image/jpeg"
-  }
-  ["imageSize"]=>
-  array(1) {
-    [0]=>
-    string(5) "24521"
-  }
-  ["localImagePath"]=>
-  string(78) "/tmp/e99a0580-6f92-11e8-a4ec-00005b21fb8c-e53e6df2-02e4-4a58-bf8b-3347a439e361"
-}
-**/
-
-
+//
+// array(3) {
+//   ["conentType"]=>
+//   array(1) {
+//     [0]=>
+//     string(10) "image/jpeg"
+//   }
+//   ["imageSize"]=>
+//   array(1) {
+//     [0]=>
+//     string(5) "24521"
+//   }
+//   ["localImagePath"]=>
+//   string(78) "/tmp/e99a0580-6f92-11e8-a4ec-00005b21fb8c-e53e6df2-02e4-4a58-bf8b-3347a439e361"
+// }
+//
 ```
+
