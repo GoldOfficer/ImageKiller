@@ -1,14 +1,15 @@
 {
-    "name"       : "goldofficer/imagekiller",
-    "description": "ImageKiller",
-    "type"       : "library",
-    "require"    : {
+    "name"             : "goldofficer/imagekiller",
+    "description"      : "ImageKiller",
+    "type"             : "library",
+    "require"          : {
         "php"               : ">=5.5.0",
         "ramsey/uuid"       : "^3.7",
         "symfony/filesystem": "^3.3",
         "guzzlehttp/guzzle" : "^6.3"
     },
-    "autoload"   : {
+    "minimum-stability": "stable",
+    "autoload"         : {
         "psr-4": {
             "GoldOfficer\\": "src/"
         }
