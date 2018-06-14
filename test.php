@@ -22,7 +22,7 @@ var_dump(
         '.jpg'
     )
 );
-var_dump(
+/*var_dump(
     \GoldOfficer\ImageKiller::saveImage(
         'https://img.oasgames.com/upload/1527756197/web/images/menu_banner1.jpg',
         null,
@@ -37,7 +37,7 @@ var_dump(
         '/tmp',
         '.jpg'
     )
-);
+);*/
 var_dump(
     \GoldOfficer\ImageKiller::saveImage(
         'https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=3705557247,1170119525&fm=173&app=25&f=JPEG?w=640&h=480&s=45503EC2C542394D3E5CD909030090D1',

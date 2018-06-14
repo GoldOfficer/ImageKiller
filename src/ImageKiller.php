@@ -56,7 +56,7 @@ class ImageKiller
         }
         
         $image['conentType'] = $respone->getHeader('Content-Type');
-        $image['size']       = $respone->getHeader('Size');
+        $image['size']       = $respone->getHeader('Content-Length');
         $image['content']    = $respone->getBody()->getContents();
         
         return $image;
