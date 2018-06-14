@@ -1,5 +1,5 @@
 ## 保存网络图片到本地(ImageKiller)
-###  This PHP class was developed to capture (download) a picture, or a set of pictures from specific internet/local address and save into users computer.
+This PHP class was developed to capture (download) a picture, or a set of pictures from specific internet/local address and save into users computer.
 ```php
 <?php
 use GoldOfficer\ImageKiller;
